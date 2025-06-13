@@ -1,38 +1,36 @@
-Welcome to the Number Guessing Game!
-This simple console application challenges the player to guess a randomly generated number between 1 and 100. It's a fun way to practice basic C++ concepts like loops, conditionals, user input, and random number generation.
+# Guess My Number
 
-📋 How to Play
-Run the program.
+## Description
 
-The computer will secretly pick a number between 1 and 100.
+Welcome to the Number Guessing Game! This simple console application challenges the player to guess a randomly generated number between 1 and 100. It's a fun way to practice basic C++ concepts like loops, conditionals, user input, and random number generation.
 
-Enter your guesses when prompted.
+## How to Play
 
-After each guess, you'll be told if your guess was too low, too high, or correct.
+1. Run the program.
+2. The computer will secretly pick a number between 1 and 100.
+3. Enter your guesses when prompted.
+4. After each guess, you'll be told if your guess was too low, too high, or correct.
+5. Keep guessing until you find the correct number.
+6. When you guess correctly, the program will display how many attempts you took.
 
-Keep guessing until you find the correct number!
+## Features
 
-When you guess correctly, you'll see how many attempts you took.
+- Random number generation with `std::rand()`
+- Simple user input validation
+- Tracks the number of attempts
+- Provides friendly feedback after each guess
 
-🛠 Features
-Random number generation with std::rand()
+## Getting Started
 
-User input validation through simple checks
+### Prerequisites
 
-Keeps track of the number of attempts
+- A C++ compiler such as `g++`, `clang++`, or MSVC
 
-Friendly feedback for each guess
+### Compiling the Code
 
-🚀 Getting Started
-Prerequisites
-A C++ compiler (e.g., g++, clang++, or MSVC)
+To compile using `g++`, run: `g++ -o guessing_game guessing_game.cpp`
 
-Compiling the Code
-Using g++:
+### Running the Program
 
-g++ -o guessing_game guessing_game.cpp
-
-Then run the executable:
-
-./guessing_game
-guessing_game.cpp
+Run the compiled executable:
+`./guessing_game`
