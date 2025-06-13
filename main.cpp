@@ -9,7 +9,7 @@ int main() {
     int guess;
     int attempts = 0;
 
-    std::cout << "🎯 Welcome to the Number Guessing Game!\n";
+    std::cout << "Welcome to the Number Guessing Game!\n";
     std::cout << "I'm thinking of a number between 1 and 100.\n";
 
     do {
